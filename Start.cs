@@ -23,6 +23,15 @@ namespace Challenges
                 case 4:
                     new IdentificaNumerosMaisRepetidos().Execute();
                     break;
+                case 5:
+                    new ArredondarComPrecisao().Execute();
+                    break;
+                case 6:
+                    new ObtenhaPrecisao().Execute();
+                    break;
+                case 7:
+                    new DistribuicaoAutomatica().Execute();
+                    break;
                 default:
                     Console.WriteLine("Finish");
                     break;
