@@ -6,8 +6,10 @@ namespace Challenges
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select a option");
-            int option = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Select a option");
+            //int option = Convert.ToInt32(Console.ReadLine());
+
+            int option = 8;
 
             switch (option)
             {
@@ -31,6 +33,12 @@ namespace Challenges
                     break;
                 case 7:
                     new DistribuicaoAutomatica().Execute();
+                    break;
+                case 8:
+                    new BubbleSort().Execute();
+                    break;
+                case 9:
+                    new HeapSort().Execute();
                     break;
                 default:
                     Console.WriteLine("Finish");
